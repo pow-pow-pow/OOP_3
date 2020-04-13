@@ -89,5 +89,6 @@ public class Cafe {
         }else{
             System.out.println("visitor left");
         }
+        //
     }
 }
