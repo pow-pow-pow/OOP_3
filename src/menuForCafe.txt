@@ -1,0 +1,16 @@
+drink cola 1 cola--ice SWEET
+drink coffee 4 coffee--sugar SWEET
+drink latte 4 coffee--sugar--milk SWEET--CONTAINSDAIRY
+drink milk 2 milk CONTAINSDAIRY
+drink water 1 water NONE
+drink tea 3 tea--water NONE
+soup borscht 15 potato--beef--carrot--beat CONTAINSMEAT--FAT
+soup chickenNoodleSoup 15 chicken--noodle--carrot--milk CONTAINSMEAT
+soup vegetarianSoup 15 potato--carrot--beat--peanut CONTAINSPEANUT
+salad greekSalad 7 olive--mozzarella--lettuce--cucumber NONE
+salad caesar 7 lettuce--tomato--cheese--chicken--mayonnaise FAT--CONTAINSMEAT
+salad rusticSalad 3 tomato--cucumber--mayonnaise FAT
+salad shrimpSalad 7 shrimp--lettuce NONE
+dessert OrangeCake 20 cake-orange SWEET--CONTAINSCITRUS
+dessert cookie 5 cookie--peanut CONTAINSPEANUT
+dessert chocoTangerineCake 5 cake--tangerine--chocolate CONTAINSCITRUS--SWEET
