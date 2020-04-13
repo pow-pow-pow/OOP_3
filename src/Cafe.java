@@ -52,10 +52,13 @@ public class Cafe {
         boolean goodToGo = false;
 
         for (int j = 0; j < order.constrictedIngredients().size(); j++) {
-            if (lunch.getAllIngredients().contains(order.constrictedIngredients().get(j))) {
-                hasNoRestrictedIngredients = false;
+            for (Ingredient item : lunch.getAllIngredients()) {
+                if (item.getName().equals(order.constrictedIngredients().get(j))){
+                    hasNoRestrictedIngredients = false;
+                }
             }
         }
+
 
         for(int i = 0; i < lunch.getAllIngredients().size(); i++){
             if(lunch.getAllIngredients().get(i).getAmount() > 0){

@@ -58,11 +58,6 @@ public class GroupDish {
 
     public List<Ingredient> getAllIngredients(){
         List<Ingredient> ingr = new ArrayList<>();
-//        for(int i=0; i< dishesInGroup.size();i++){
-//            for(int j=0; j< dishesInGroup.get(i).getIngredients().size(); j++){
-//            ingr.add(dishesInGroup.get(i).getIngredients().get(j));
-//            }
-//        }
         for(int a=0; a<dishesInGroup.get(0).getIngredients().size(); a++){
             ingr.add(dishesInGroup.get(0).getIngredients().get(a));
         }
